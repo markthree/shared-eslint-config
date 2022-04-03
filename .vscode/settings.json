@@ -1,0 +1,22 @@
+{
+	// 开启 eslint 作为格式化工具
+	"eslint.format.enable": true,
+	// vue 文件的默认格式化工具选择 eslint
+	"[vue]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	// js 文件的默认格式化工具选择 eslint
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	// css 文件的默认格式化工具选择内置的 css-language-features
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	// 关闭 prettier
+	"prettier.enable": false,
+	// 编辑器保存时 fix 所有的源码
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": false
+	}
+}

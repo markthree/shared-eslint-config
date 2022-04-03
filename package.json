@@ -1,0 +1,24 @@
+{
+  "name": "shared-eslint-config",
+  "version": "1.0.0",
+  "description": "通用的 eslint 配置",
+  "main": "index.js",
+  "scripts": {
+    "fix": "eslint --fix playground/*.js playground/*.vue"
+  },
+  "keywords": [
+    "shared",
+    "common",
+    "eslint-config"
+  ],
+  "author": {
+    "name": "markthree",
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-plugin-vue": "^8.5.0"
+  }
+}
