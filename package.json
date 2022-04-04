@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint --ext .js,.jsx,.vue playground",
-		"lint:fix": "eslint --fix --ext .js,.jsx,.vue playground"
+		"lint:fix": "eslint --fix --ext .js,.jsx,.vue playground",
+		"prepare": "husky install"
 	},
 	"keywords": [
 		"shared",
@@ -24,7 +25,12 @@
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-vue": "^8.5.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.3.7",
 		"prettier": "2.5.1",
 		"typescript": "^4.6.3"
+	},
+	"lint-staged": {
+		"*.{js,jsx,vue,css}": "eslint --cache --fix"
 	}
 }
