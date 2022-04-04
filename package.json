@@ -4,7 +4,7 @@
   "description": "通用的 eslint 配置",
   "main": "index.js",
   "scripts": {
-    "fix": "eslint --fix playground/*.js playground/*.vue"
+    "fix": "eslint --fix playground"
   },
   "keywords": [
     "shared",
@@ -18,7 +18,12 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/parser": "^5.17.0",
     "eslint": "^8.12.0",
-    "eslint-plugin-vue": "^8.5.0"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "2.5.1",
+    "typescript": "^4.6.3"
   }
 }
