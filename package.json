@@ -4,7 +4,8 @@
 	"description": "通用的 eslint 配置",
 	"main": "index.js",
 	"scripts": {
-		"fix": "eslint --fix playground"
+		"lint": "eslint --ext .js,.jsx,.vue playground",
+		"lint:fix": "eslint --fix --ext .js,.jsx,.vue playground"
 	},
 	"keywords": [
 		"shared",
