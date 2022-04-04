@@ -31,6 +31,6 @@
 		"typescript": "^4.6.3"
 	},
 	"lint-staged": {
-		"*.{js,jsx,vue,css}": "eslint --cache --fix"
+		"*.{js,jsx,vue}": "eslint --cache --fix"
 	}
 }
