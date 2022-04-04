@@ -1,29 +1,29 @@
 {
-  "name": "shared-eslint-config",
-  "version": "1.0.0",
-  "description": "通用的 eslint 配置",
-  "main": "index.js",
-  "scripts": {
-    "fix": "eslint --fix playground"
-  },
-  "keywords": [
-    "shared",
-    "common",
-    "eslint-config"
-  ],
-  "author": {
-    "name": "markthree",
-    "email": "1801982702@qq.com",
-    "url": "https://github.com/markthree"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@typescript-eslint/parser": "^5.17.0",
-    "eslint": "^8.12.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.5.0",
-    "prettier": "2.5.1",
-    "typescript": "^4.6.3"
-  }
+	"name": "shared-eslint-config",
+	"version": "1.0.0",
+	"description": "通用的 eslint 配置",
+	"main": "index.js",
+	"scripts": {
+		"fix": "eslint --fix playground"
+	},
+	"keywords": [
+		"shared",
+		"common",
+		"eslint-config"
+	],
+	"author": {
+		"name": "markthree",
+		"email": "1801982702@qq.com",
+		"url": "https://github.com/markthree"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/parser": "^5.17.0",
+		"eslint": "^8.12.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-vue": "^8.5.0",
+		"prettier": "2.5.1",
+		"typescript": "^4.6.3"
+	}
 }

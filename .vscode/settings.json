@@ -1,25 +1,25 @@
 {
-  // 开启 eslint
-  "eslint.enable": true,
-  // 开启 prettier
-  "prettier.enable": true,
-  // 开启 eslint 作为格式化工具
-  "eslint.format.enable": true,
-  // 默认格式化选择 prettier,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[js]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[ts]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+	// 开启 eslint
+	"eslint.enable": true,
+	// 开启 prettier
+	"prettier.enable": true,
+	// 开启 eslint 作为格式化工具
+	"eslint.format.enable": true,
+	// 默认格式化选择 prettier,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[js]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[ts]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
